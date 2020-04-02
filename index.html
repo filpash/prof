@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>About me</title>
+</head>
+<body>
+
+<svg style="display: none">
+    <symbol id="linkedin" viewBox="0 0 438.536 438.535">
+        <g>
+            <rect x="5.424" y="145.895" width="94.216" height="282.932"/>
+            <path d="M408.842,171.739c-19.791-21.604-45.967-32.408-78.512-32.408c-11.991,0-22.891,1.475-32.695,4.427
+			c-9.801,2.95-18.079,7.089-24.838,12.419c-6.755,5.33-12.135,10.278-16.129,14.844c-3.798,4.337-7.512,9.389-11.136,15.104
+			v-40.232h-93.935l0.288,13.706c0.193,9.139,0.288,37.307,0.288,84.508c0,47.205-0.19,108.777-0.572,184.722h93.931V270.942
+			c0-9.705,1.041-17.412,3.139-23.127c4-9.712,10.037-17.843,18.131-24.407c8.093-6.572,18.13-9.855,30.125-9.855
+			c16.364,0,28.407,5.662,36.117,16.987c7.707,11.324,11.561,26.98,11.561,46.966V428.82h93.931V266.664
+			C438.529,224.976,428.639,193.336,408.842,171.739z"/>
+            <path d="M53.103,9.708c-15.796,0-28.595,4.619-38.4,13.848C4.899,32.787,0,44.441,0,58.529c0,13.891,4.758,25.505,14.275,34.829
+			c9.514,9.325,22.078,13.99,37.685,13.99h0.571c15.99,0,28.887-4.661,38.688-13.99c9.801-9.324,14.606-20.934,14.417-34.829
+			c-0.19-14.087-5.047-25.742-14.561-34.973C81.562,14.323,68.9,9.708,53.103,9.708z"/>
+        </g>
+    </symbol>
+
+    <symbol id="github" viewBox="0 0 478.613 478.613">
+        <g>
+            <path d="M427.501,200.695c1.776-11.238,2.884-23.56,3.163-37.377c-0.107-59.246-28.468-80.21-33.925-90.038
+			c8.037-44.89-1.331-65.309-5.688-72.299c-16.07-5.704-55.91,14.722-77.678,29.101c-35.491-10.389-110.494-9.375-138.621,2.689
+			C122.856-4.389,95.408,1.277,95.408,1.277s-17.745,31.82-4.691,78.371c-17.075,21.759-29.802,37.143-29.802,77.949
+			c0,9.773,0.607,19.008,1.637,27.893c14.705,77.318,75.97,110.674,136.15,116.426c-9.056,6.881-19.928,19.903-21.432,34.992
+			c-11.379,7.357-34.268,9.789-52.067,4.193c-24.939-7.88-34.486-57.266-71.833-50.221c-8.081,1.512-6.475,6.842,0.523,11.386
+			c11.378,7.38,22.094,16.554,30.354,36.185c6.344,15.072,19.687,41.982,61.873,41.982c16.747,0,28.477-1.979,28.477-1.979
+			s0.319,38.406,0.319,53.385c0,17.238-23.264,22.078-23.264,30.348c0,3.289,7.7,3.601,13.888,3.601
+			c12.229,0,37.673-10.186,37.673-28.103c0-14.237,0.227-62.081,0.227-70.46c0-18.307,9.811-24.136,9.811-24.136
+			s1.201,97.727-2.361,110.829c-4.177,15.408-11.744,13.219-11.744,20.076c0,10.233,30.589,2.502,40.735-19.897
+			c7.849-17.495,4.334-113.331,4.334-113.331l8.183-0.178c0,0,0.094,43.892-0.188,63.944c-0.295,20.769-2.438,47.025,9.898,59.417
+			c8.097,8.15,32.903,22.451,32.903,9.382c0-7.574-17.371-13.833-17.371-34.353V344.45c10.553,0,12.734,31.072,12.734,31.072
+			l3.804,57.727c0,0-2.526,21.065,22.756,29.856c8.925,3.126,28.018,3.976,28.913-1.271c0.897-5.26-22.99-13.038-23.217-29.342
+			c-0.123-9.93,0.445-15.742,0.445-58.934c0-43.168-5.799-59.137-26.007-71.863C355.669,295.681,416.536,269.51,427.501,200.695z"/>
+        </g>
+    </symbol>
+
+    <symbol id="telegram" viewBox="0 0 24 24">
+        <g>
+            <path d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267
+             1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431
+              1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z"/>
+        </g>
+    </symbol>
+
+    <symbol id="vk" viewBox="0 0 304.36 304.36">
+        <g>
+            <path d="M261.945,175.576c10.096,9.857,20.752,19.131,29.807,29.982
+                  c4,4.822,7.787,9.798,10.684,15.394c4.105,7.955,0.387,16.709-6.746,17.184l-44.34-0.02c-11.436,0.949-20.559-3.655-28.23-11.474
+                  c-6.139-6.253-11.824-12.908-17.727-19.372c-2.42-2.642-4.953-5.128-7.979-7.093c-6.053-3.929-11.307-2.726-14.766,3.587
+                  c-3.523,6.421-4.322,13.531-4.668,20.687c-0.475,10.441-3.631,13.186-14.119,13.664c-22.414,1.057-43.686-2.334-63.447-13.641
+                  c-17.422-9.968-30.932-24.04-42.691-39.971C34.828,153.482,17.295,119.395,1.537,84.353C-2.01,76.458,0.584,72.22,9.295,72.07
+                  c14.465-0.281,28.928-0.261,43.41-0.02c5.879,0.086,9.771,3.458,12.041,9.012c7.826,19.243,17.402,37.551,29.422,54.521
+                  c3.201,4.518,6.465,9.036,11.113,12.216c5.142,3.521,9.057,2.354,11.476-3.374c1.535-3.632,2.207-7.544,2.553-11.434
+                  c1.146-13.383,1.297-26.743-0.713-40.079c-1.234-8.323-5.922-13.711-14.227-15.286c-4.238-0.803-3.607-2.38-1.555-4.799
+                  c3.564-4.172,6.916-6.769,13.598-6.769h50.111c7.889,1.557,9.641,5.101,10.721,13.039l0.043,55.663
+                  c-0.086,3.073,1.535,12.192,7.07,14.226c4.43,1.448,7.35-2.096,10.008-4.905c11.998-12.734,20.561-27.783,28.211-43.366
+                  c3.395-6.852,6.314-13.968,9.143-21.078c2.096-5.276,5.385-7.872,11.328-7.757l48.229,0.043c1.43,0,2.877,0.021,4.262,0.258
+                  c8.127,1.385,10.354,4.881,7.844,12.817c-3.955,12.451-11.65,22.827-19.174,33.251c-8.043,11.129-16.645,21.877-24.621,33.072
+                  C252.26,161.544,252.842,166.697,261.945,175.576L261.945,175.576z M261.945,175.576"/>
+        </g>
+    </symbol>
+</svg>
+
+<button class="scrollToTop">
+    <i class="fas fa-angle-up"></i>
+</button>
+
+<header class="main-header">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #15263e">
+        <a class="navbar-brand" href="#">FPortfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" data-scroll="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" data-scroll="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio" data-scroll="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#expert" data-scroll="#expert">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" data-scroll="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-header-text" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Hello, I AM</h3>
+                    <h1>Filipp</h1>
+                    <h2>Pashkevich</h2>
+                    <h4>I build things for the web.</h4>
+                    <div class="main-header-button">
+                        <a class="btn btn-pink" href="resume/Resume.pdf">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</header>
+<!--section header-->
+
+<section class="section-about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Filipp Pashkevich</h4>
+                <h5>Junior front-end developer</h5>
+                <p>Hello! I'm Filipp, a front-end developer from Minsk<br>
+                    who loves to create things that live on the Internet. I develop<br>
+                    exceptional websites and web applications that provide an intuitive,
+                    pixel-perfect user interface.</p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="about-image">
+                    <img  class="section-img" src="img/1.png" alt="my photo">
+                    <img class="section-img-1" src="img/1.png" alt="my second photo">
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="about-rage">
+                    <div class="about-img">
+                        <h5>Adaptability (80%)</h5>
+                        <img src="img/rage.jpg" alt="my rage">
+                    </div>
+                    <div class="about-img">
+                        <h5>Cross browser (70%)</h5>
+                        <img src="img/rage.jpg" alt="my rage">
+                    </div>
+                    <div class="about-img">
+                        <h5>Mobile development (50%)</h5>
+                        <img src="img/rage.jpg" alt="my rage">
+                    </div>
+                    <div class="about-img">
+                        <h5>Progressive improvement (50%)</h5>
+                        <img src="img/rage.jpg" alt="my rage">
+                    </div>
+                    <div class="about-img justify-content-center">
+                        <h5>Cross platform development (50%)</h5>
+                        <img src="img/rage.jpg" alt="my rage">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section-about-->
+
+<section class="info-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 info-contact text-center">
+                <img src="img/phone.png" alt="phone">
+                <div class="info-text">
+                    <h5>Phone number</h5>
+                    <p>+375(44) 556-31-01</p>
+                </div>
+            </div>
+            <div class="col-md-4 info-contact text-center">
+                <img src="img/location.png" alt="location">
+                <div class="info-text">
+                    <h5>Address</h5>
+                    <p>Belarus,Minsk</p>
+                </div>
+            </div>
+            <div class="col-md-4 info-contact text-center">
+                <img src="img/maildress.png" alt="mail">
+                <div class="info-text">
+                    <h5>Email address</h5>
+                    <p>filipppashkevich@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--info-block-->
+
+<section class="section-work" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 section-text text-center">
+                <h4>Portfolio</h4>
+                <p>Here you can see my work</p>
+            </div>
+                <!--col-md-8-->
+            <div class="col-md-12">
+                <ul class="nav nav-pills justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active rounded-pill" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill" id="mogo-tab" data-toggle="tab" href="#mogo" role="tab" aria-controls="mogo" aria-selected="false">Mogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill" id="activebox-tab" data-toggle="tab" href="#activebox" role="tab" aria-controls="activebox" aria-selected="false">ActiveBox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill" id="star-tab" data-toggle="tab" href="#star" role="tab" aria-controls="star" aria-selected="false">StarDB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill" id="game-tab" data-toggle="tab" href="#game" role="tab" aria-controls="game" aria-selected="false">GameBox</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                        <div class="work-gallery text-center row">
+                            <div class="col-md-6 work-gallery-item">
+                                <a class="mogo-name" href="work/work1">
+                                    <img src="img/images/1.jpg" alt="mogo">
+                                </a>
+                            </div>
+                            <div class="col-md-6 work-gallery-item">
+                                <a class="active-name" href="work/work2">
+                                    <img src="img/images/2.jpg" alt="activebox">
+                                </a>
+                            </div>
+                            <div class="col-md-6 work-gallery-item">
+                                <a class="star-name" href="https://filpash.github.io/stardb/">
+                                    <img src="img/images/3.jpg" alt="star">
+                                </a>
+                            </div>
+                            <div class="col-md-6 work-gallery-item">
+                                <a class="game-name" href="work/work4">
+                                    <img src="img/images/4.jpg" alt="game">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="mogo" role="tabpanel" aria-labelledby="mogo-tab">
+                        <div class="work-gallery text-center row">
+                            <div class="col-md-12 work-gallery-item">
+                                <a class="mogo-name" href="work/work1">
+                                    <img src="img/images/1.jpg" alt="mogo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="activebox" role="tabpanel" aria-labelledby="activebox-tab">
+                        <div class="work-gallery text-center row">
+                            <div class="col-md-12 work-gallery-item">
+                                <a class="active-name" href="work/work2">
+                                    <img src="img/images/2.jpg" alt="activebox">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="star" role="tabpanel" aria-labelledby="star-tab">
+                        <div class="work-gallery text-center row">
+                            <div class="col-md-12 work-gallery-item">
+                                <a class="star-name" href="https://filpash.github.io/stardb/">
+                                    <img src="img/images/3.jpg" alt="star">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="game" role="tabpanel" aria-labelledby="game-tab">
+                        <div class="work-gallery text-center row">
+                            <div class="col-md-12 work-gallery-item">
+                                <a class="game-name" href="work/work4">
+                                    <img src="img/images/4.jpg" alt="game">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--col-md-12-->
+        </div>
+    </div>
+</section>
+
+<!--info-block-->
+
+<section class="section-expert" id="expert">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 section-text text-center">
+                <h4>Experience</h4>
+                <p>Here you can find out what I do</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 section-cont">
+                <h4>Education</h4>
+                <p>Student 2012-2020</p>
+            </div>
+            <div class="col-md-1 section-rectangle">
+                <img src="img/rectangle.jpg" alt="rectangle">
+            </div>
+            <div class="col-md-9 section-subtext">
+                <p><span>Belarusian State University of Transport, Gomel.</span>
+                    Correspondence faculty,
+                    Technical operation of machinery and equipment</p>
+            </div>
+        </div>
+
+        <!--row expert-2-->
+        <div class="row expert-2">
+            <div class="col-md-9 section-subtext-1">
+                <p>Dec 2019 - Jan 2020, Udemy,
+                    React/Redux Course</p>
+                <p>October 2019, Layout Academy,
+                    PHP Course</p>
+                <p>September 2019, WebForMySelf.com -
+                    Bootstrap 4 Framework</p>
+                <p>July 2019, WebForMySelf.com -
+                    JavaScript Complete Guide to Web Development</p>
+                <p>University of Pensylvanya, Oct. 2019, Coursera.org -
+                    English for Career Development</p>
+                <p>August 2019, SoloLearn -
+                    JavaScript Tutorial course</p>
+                <p>May 2019, SoloLearn -
+                    HTML Fundamentals course</p>
+                <p>May 2019, SoloLearn -
+                    CSS Fundamentals course</p>
+            </div>
+            <div class="col-md-1 section-rectangle-1">
+                <img src="img/rectangle.jpg" alt="rectangle">
+            </div>
+            <div class="col-md-2 section-cont-1">
+                <h4>Courses</h4>
+                <p>2019-2020</p>
+            </div>
+        </div>
+
+        <!--row expert-2-->
+        <div class="row expert-3">
+            <div class="col-md-2 section-cont-3">
+                <h4>Work experience</h4>
+                <p>March-December 2019</p>
+            </div>
+            <div class="col-md-1 section-rectangle-3">
+                <img src="img/rectangle.jpg" alt="rectangle">
+            </div>
+            <div class="col-md-9 section-subtext-3">
+                <h5>Freelance</h5>
+                <h6>Professional Education</h6>
+                <p>June - Jule 2019</p>
+                <p class="section_subtext-3">
+                    Layout of a one-page Mogo site using HTML (HTMT5), CSS (CSS3), Flexbox, jQuery
+                </p>
+
+                <hr/>
+
+                <p>Jule - August 2019</p>
+                <p class="section_subtext-3">
+                    Layout of a one-page ActiveBox site using HTML (HTMT5), CSS (CSS3), Flexbox, jQuery
+                </p>
+
+                <hr/>
+
+                <p>August - September 2019</p>
+                <p class="section_subtext-3">
+                    Creating a BoxGame application using JavaScript and its components
+                    (setting up a development environment, developing a game field, random values, implementing a timer,
+                    displaying the result, giving stylization to the application)
+                </p>
+
+                <hr/>
+
+                <p>September - October 2019</p>
+                <p class="section_subtext-3">
+                    Layout of the BlueRex landing page consisting of several sections: website header, responsive menu,
+                    tabs, costomized video, galleries, slider, forms, blog page, single entry page, using HTML5 / CSS3
+                    / jQuery, Bootstrap4
+                </p>
+
+                <hr/>
+
+                <p>October - November 2019</p>
+                <p class="section_subtext-3">
+                    Development of a blog using PHP / Laravel which contains (user registration and authorization,
+                    displaying paginated posts, creating posts, deleting and editing them)
+                </p>
+
+                <hr/>
+
+                <p>November - December 2019</p>
+                <p class="section_subtext-3">
+                    Development of the Todo List application using React JS, in which you can create a to-do list,
+                    make them important, mark as completed and remove from the list, there is also a filter with active
+                    and completed tasks and a search with filtering for existing and absent ones
+                </p>
+
+                <hr/>
+
+                <p>December 2019 - January 2020</p>
+                <p class="section_subtext-3">
+                    Creating an illustrated database of the popular Star Wars saga using React.
+                    The page shows separately for each category of heroes, planets and ships with their
+                    own description separately. To obtain real data, the API (swapi.co) was used.
+                    In the development of applications, REST (work with the server), the life cycle of components,
+                    higher-order components, Render functions, Context API - React 16, React Router were used.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section-expert-->
+
+<section class="section-contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 section-text text-center">
+                <h4>Contact</h4>
+                <p>Here you can chat with me</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xs-1 contact-img">
+                <a class="section-item" href="https://www.linkedin.com/in/filipp-pashkevich/" target="_blank">
+                    <svg class="section-icon">
+                        <use xlink:href="#linkedin"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-xs-1 contact-img">
+                <a class="section-item" href="https://github.com/filpash?tab=repositories" target="_blank">
+                    <svg class="section-icon">
+                        <use xlink:href="#github"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-xs-1 contact-img">
+                <a class="section-item" href="https://xn--80affa3aj0al.xn--80asehdb/#/login" target="_blank">
+                    <svg class="section-icon">
+                        <use xlink:href="#telegram"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-xs-1 contact-img">
+                <a class="section-item" href="https://vk.com/id139077464" target="_blank">
+                    <svg class="section-icon">
+                        <use xlink:href="#vk"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section-contact-->
+
+<footer class="footer-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 footer_text text-center">
+                <p>2019 FPortfolio, Design build Filipp Pashkevich</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
